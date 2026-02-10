@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- 
+    =============================================
+    BASIC PAGE METADATA
+    =============================================
+    - Title appears in browser tab
+    - Change this once for the entire site
+  -->
+  <title>Info Tech Cheat Sheets</title>
+
+  <!-- 
+    =============================================
+    RESPONSIVE VIEWPORT
+    =============================================
+    Ensures the site looks good on laptops and tablets.
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- 
+    =============================================
+    DOCSIFY THEME
+    =============================================
+    This is the default Docsify theme.
+    
+    Other official themes (drop-in replacement):
+    - vue
+    - dark
+    - buble
+    - pure
+    
+    Docs: https://docsify.js.org/#/themes
+  -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
+</head>
+
+<body>
+  <!-- 
+    =============================================
+    DOCSIFY APP ROOT
+    =============================================
+    Docsify renders all Markdown content inside this div.
+    Students should NOT edit this.
+  -->
+  <div id="app"></div>
+
+  <script>
+    /*
+      =============================================
+      DOCSIFY CONFIGURATION
+      =============================================
+
+      IMPORTANT FOR STUDENTS:
+      - Students only edit Markdown files (.md)
+      - This file should not be modified during the lab
+
+      IMPORTANT FOR INSTRUCTORS:
+      - Most site behavior is controlled here
+      - Safe place to enable/disable features later
+    */
+    window.$docsify = {
+      // Name displayed in the sidebar
+      name: 'Info Tech Cheat Sheets',
+
+      // GitHub repo link (optional)
+      // Set to the Classroom template repo if desired
+      repo: '',
+
+      //Home page
+      homepage: 'README.md',
+
+      // Load README.md as the homepage
+      loadSidebar: true,
+
+      // Sidebar depth (headings shown)
+      subMaxLevel: 2,
+
+      // Enable navigation between pages
+      auto2top: true,
+
+      /*
+        =============================================
+        SEARCH (OPTIONAL - DISABLED FOR NOW)
+        =============================================
+
+        To enable search later:
+        1. Uncomment the search configuration
+        2. Uncomment the search plugin script below
+
+        search: {
+          placeholder: 'Search',
+          noData: 'No results found',
+        },
+      */
+
+      /*
+        =============================================
+        THEMES & PLUGINS (FUTURE GROWTH)
+        =============================================
+
+        Docsify supports many plugins:
+        - Search
+        - Copy-to-clipboard for code
+        - Pagination
+        - Dark mode toggle
+
+        Docs:
+        https://docsify.js.org/#/plugins
+      */
+    };
+  </script>
+
+  <!-- 
+    =============================================
+    DOCSIFY CORE SCRIPT
+    =============================================
+    Loads Docsify from a CDN.
+    No local installation required.
+  -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <!-- 
+    =============================================
+    OPTIONAL PLUGINS (COMMENTED OUT)
+    =============================================
+
+    Enable only if needed later.
+    These are safe additions once students are comfortable.
+
+    SEARCH PLUGIN:
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+    COPY CODE BUTTON:
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  -->
+
+  <!-- 
+    =============================================
+    HELP & DOCUMENTATION
+    =============================================
+
+    Official Docsify documentation:
+    https://docsify.js.org
+
+    Markdown reference:
+    https://www.markdownguide.org/basic-syntax/
+  -->
+</body>
+</html>
