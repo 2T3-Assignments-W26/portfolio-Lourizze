@@ -1,0 +1,9 @@
+Test that the ignore file is working: 
+
+Add a new text file to your local repo test.txt 
+
+Add data into the file save it.  
+
+Stage all files, commit and push to remote repo.  
+
+Go to repo on GitHub. The new text file should not be there. 

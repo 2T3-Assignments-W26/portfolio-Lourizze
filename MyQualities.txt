@@ -1,8 +1,8 @@
 - Name: Lourizze Gaile Valete
 - Email: Lourizzegaile07@gmail.com
-- Location: 
-- Skills:
-- Education:
-- Experience / Projects:
-- Achievements / Certifications:
-- Interests / Hobbies:Cooking, Reading, Playing Volleyball
+- Location:  Montreal, Canada
+- Skills:Git, GitHub
+- Education: High School Diploma, PCHS High School, 2025
+- Experience / Projects:C# game project 
+- Achievements / Certifications: Honor Student 2025
+- Interests / Hobbies: Cooking, Reading, Playing Volleyball
