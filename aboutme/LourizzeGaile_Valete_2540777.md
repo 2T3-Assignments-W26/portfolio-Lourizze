@@ -1,7 +1,6 @@
 ![Photo](aboutme/Screenshot%202026-02-21%20221702.jpg)
 
 # Lourizze Gaile Valete
----
 Montreal, Canada - 654 354 5463 - Lourizzegaile07@gmail.com
 
 ## Professional Summary
