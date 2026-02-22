@@ -15,7 +15,7 @@ Motivated and detail-oriented student pursuing a Bachelor's degree in Computer S
 ## Education
 
 |**Level**           | **School**                        |  **Year**    | 
-| -------------------:|---------------------------------: |-----------  |  
+| -------------------|:---------------------------------: | -----------  |  
 |Cegep               |       John Abbott College        | 2025 - Present|   
 |Secondary Education | Pierrefonds Community High School |  2023 - 2025 |  
 |                    | Ecumenical Christian College      |  2020 - 2023 |
