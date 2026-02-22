@@ -3,20 +3,21 @@
 
 ![alt text](image.png)
 
-# Essential Commands and Aliases
+## Essential Commands and Aliases
 |Task|Cmdlet|Common Aliases|
+|--|--|--|
 |Get help|```Get-Help <Command-Name>```|```man```|
 |List commands|```Get-Command```| |
-|Get current location|```Get-Location
-|Change location|```Get-Location<Path>
-|List directory contents|```Get-Children
-|Get file content|```Get-Content<File-Path>
-|Copy items|```
-|Move items|```
-|Remove items|```
-|Create new item|```
-|Manage processes|```
-|Manage services|```
+|Get current location|```Get-Location```|```pwd```|
+|Change location|```Get-Location<Path>```|```cd```|
+|List directory contents|```Get-Children```|```Is,dir,gci```|
+|Get file content|```Get-Content<File-Path>```|```gc,cat```|
+|Copy items|```Copy-Item <Source><Destinatio>```|```cp,cpi```|
+|Move items|```Move-Item <Source><Destination>```|```mv,mi```|
+|Remove items|```Remove-Item <Name>```|```rm```|
+|Create new item|```New-Item <Name>```|```mkdir,touch```|
+|Manage processes|```Get-Process,Stop-Process```| |
+|Manage services|```Get-Service,Start-Service```| |
  
 
 ## About **PowerShell**
@@ -70,7 +71,7 @@ PowerShell is an essential tool for:
 - ``Get-Help:`` Provides help information for commands.
 - ``Get-Process:`` Displays all running processes.
 - ``Stop-Process:`` Stops a specific process.
-- ``Set-Location:`` Changes the current directory (like cd in Command Prompt).
+- ``Set-Location:`` Changes the current directory (like ``cd`` in Command Prompt).
 - ``New-Item:`` Creates a new file or directory.
 
 ## Example Script
@@ -95,7 +96,7 @@ When writing and debugging PowerShell scripts, using a dedicated editor can grea
 - **What it is:** A built-in editor for Windows PowerShell (versions 1.0 to 5.1).
 - **Features:**
   - Syntax highlighting.  
-  - Debugging tools (breakpoints, step-through execution).
+  - Debugging tools *(breakpoints, step-through execution).*
   - Integrated console for testing scripts.
   - Multi-tab interface for working with multiple scripts.
   
@@ -111,9 +112,9 @@ When writing and debugging PowerShell scripts, using a dedicated editor can grea
 - **Features:**
   - Syntax highlighting and IntelliSense for PowerShell.  
   - Integrated terminal for running scripts.  
-  - Extensions for additional functionality (e.g., PowerShell extension).
+  - Extensions for additional functionality *(e.g., PowerShell extension).*
   - Support for Git and other version control systems.
-  - Cross-platform (Windows, macOS, Linux).
+  - Cross-platform *(Windows, macOS, Linux).*
 - **Best for:** Modern PowerShell development, especially with PowerShell 7 and cross-platform scripting.
 
 ![alt text](vs_code.png)
